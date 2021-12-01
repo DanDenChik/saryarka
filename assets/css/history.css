@@ -66,6 +66,12 @@
     right: -50%;
     opacity: 1;
 }
+.header__link{
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border: #000 1px solid;
+}
 .info__inner{
     display: flex;
     justify-content: space-between;

@@ -49,12 +49,6 @@
     left: 0;
     opacity: 1;
 }
-.header__link{
-    color: #000;
-    text-decoration: none;
-    font-size: 18px;
-    border: #000 1px solid;
-}
 .header__nav__link::after{
     content: '';
     display: block;
@@ -67,6 +61,12 @@
     opacity: 0;
     position: relative;
     transition: ease-out .2s;
+}
+.header__link{
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border: #000 1px solid;
 }
 .header__nav__link:hover::after{
     right: -50%;
